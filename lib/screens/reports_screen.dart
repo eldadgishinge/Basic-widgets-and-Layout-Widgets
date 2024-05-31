@@ -5,13 +5,13 @@ class ReportsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Financial Reports'),
+        title: const Text('Financial Reports'),
       ),
       body: Center(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Text('Monthly Expenses Report',
                   style: TextStyle(fontSize: 20)),
             ),
