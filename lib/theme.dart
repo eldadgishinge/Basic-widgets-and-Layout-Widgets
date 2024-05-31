@@ -21,4 +21,11 @@ class AppTheme {
         backgroundColor: MaterialStateProperty.all(primaryColor),
       ),
     ),
-  
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: ButtonStyle(
+        foregroundColor: MaterialStateProperty.all(primaryColor),
+        side: MaterialStateProperty.all(const BorderSide(color: primaryColor)),
+      ),
+    ),
+  );
+}
